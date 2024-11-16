@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: url('https://avatars.mds.yandex.net/i?id=db31c86e20f75cfb23cbacce0a7d76faf15afaeb-9863327-images-thumbs&n=13') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Yengil oq fon */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  h1 {
+    color: #4CAF50;
+  }
+  
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #number-display {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  #winner {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f39c12;
+    margin-top: 20px;
+  }
+  
